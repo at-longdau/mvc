@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Home - Start Bootstrap Template</title>
+    <title>Blog Home - MVC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,27 +31,27 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/home/about">About</a>
+              <a class="nav-link" href="/home/about">Gioi thieu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/home/contact">Contact</a>
+              <a class="nav-link" href="/home/contact">Lien he</a>
             </li>
             <?php if(Session::get('username')!=NULL): ?>
               <li class="nav-item">
-              <a class="nav-link" href="/posts/create">Add Post</a>
+              <a class="nav-link" href="/posts/create">Them bai viet</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="" style="color: red"><?php echo Session::get('username'); ?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/users/logout">Logout</a>
+              <a class="nav-link" href="/users/logout">Dang xuat</a>
             </li>
           <?php else: ?>
             <li class="nav-item">
-              <a class="nav-link" href="/users/signup">Sign Up</a>
+              <a class="nav-link" href="/users/signup">Dang ky</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/users/signin">Sign In</a>
+              <a class="nav-link" href="/users/signin">Dang nhap</a>
             </li>
           <?php endif; ?>
           </ul>
