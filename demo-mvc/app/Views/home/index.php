@@ -8,7 +8,7 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
-          <h1 class="my-4">Page Heading
+          <h1 class="my-4">Psdasading
             <small>Secondary Text</small>
           </h1>
 
