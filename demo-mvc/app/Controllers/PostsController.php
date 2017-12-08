@@ -33,5 +33,6 @@ class PostsController extends Controller
         $model = new Post();
         $post = $model->find($id);
         view('posts.view',$post);
+        
     }
 }
