@@ -5,7 +5,7 @@ return [
     'host'     => 'localhost',
     'port'     => 3306,
     'db'       => 'demomvc',
-    'user'     => 'root',
+    'user'     => 'huylong',
     'password' => '123456',
     'charset'  => 'utf8'
 

@@ -15,7 +15,7 @@ class PostsController extends Controller
                 $content = $_POST['content'];
                 $author = Session::get('username');
                 $model = new Post();
-                $model->save($title,$description,$content,$author);
+                $model->create($title,$description,$content,$author);
                 header('Location:/');
             }
         }
@@ -32,6 +32,7 @@ class PostsController extends Controller
     {
         $model = new Post();
         $post = $model->find($id);
+
         view('posts.view',$post);
     }
 }
